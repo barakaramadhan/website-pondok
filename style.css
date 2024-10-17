@@ -17,6 +17,38 @@
   padding-top: 20px;
   z-index: 9;
 }
+/* tambahan  */
+#navigasi .dropdown{
+  position: relative;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #faa613;
+  top: 100%;
+  border-radius: 10px;
+}
+
+.dropdown-menu li{
+  margin-left: 0 !important;
+}
+
+.dropdown-menu a{
+  width: 150px;
+  background-color: white;
+  display: block;
+  margin: 18px 12px;
+  text-decoration: none;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
 
 .user {
   /* background-color: #717171; */
@@ -69,14 +101,14 @@
   height: 20px;
 }
 
-.list-navigasi li {
+.list-navigasi li  {
   list-style: none;
   margin-left: 20px;
   /* margin-right: 10px; */
 }
 #banner {
-  /* background-color: #f5f7fa; */
-  background-image: url(./assets/pondok.png);
+  background-color: #f5f7fa;
+  /* background-image: url(./assets/pondok.png); */
   height: 85vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -180,8 +212,8 @@ button:hover {
 .container-komunitas {
   /* background-color: #67512c; */
 
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .Kelola {
@@ -202,33 +234,39 @@ button:hover {
 }
 
 .assets {
-  /* background-color: green; */
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 10px;
   margin-left: 10px;
   box-shadow: 1px 2px 5px #abbed133;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
 }
 
 .pembungkus-assets {
+  /* background-color: #227b94; */
   display: flex;
+  justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
 .membership {
   color: #4d4d4d;
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 700;
+  text-align: center;
 }
 
 .pembungkus-assets p {
+  padding-top: 20px;
   color: #717171;
-  font-size: 11px;
+  font-size: 15px;
   margin-bottom: 20px;
   text-align: center;
   color: #717171;
@@ -557,8 +595,8 @@ button:hover {
   font-size: 15px;
   font-weight: 700;
 }
-.pembungkus-icon-hacker a:hover{
-  color: #227B94;
+.pembungkus-icon-hacker a:hover {
+  color: #227b94;
 }
 
 /* apa yang baru */
@@ -595,27 +633,25 @@ button:hover {
 }
 
 /*apa yang baru */
-.container-yang-baru{
+.container-yang-baru {
   /* background-color: #faa613; */
   margin-top: 80px;
   display: flex;
   justify-content: space-evenly;
 }
 
-
-
-.card{
+.card {
   /* overflow: hidden; */
   /* background-color: #4d4d4d; */
   width: 400px;
   position: relative;
 }
 
-.card img{
+.card img {
   width: 100%;
 }
 
-.tulisan{
+.tulisan {
   border-radius: 15px;
   padding: 15px;
   background-color: white;
@@ -629,39 +665,39 @@ button:hover {
     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
-.tulisan p{
+.tulisan p {
   color: #717171;
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 15px;
 }
 
-.tulisan a{
+.tulisan a {
   text-decoration: none;
   color: #faa613;
   font-size: 15px;
   font-weight: 700;
 }
-.tulisan a:hover{
-  color: #227B94;
+.tulisan a:hover {
+  color: #227b94;
 }
 
 /* Printing */
 
-.printing{
- padding-top: 50px;
- padding-bottom: 50px;
+.printing {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   margin-top: 200px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
-.printing h1{
-  color: #F44708;
+.printing h1 {
+  color: #f44708;
   font-size: 40px;
   font-weight: 600;
 }
 
-.printing button{
+.printing button {
   background-color: #faa613;
   border: none;
   color: white;
@@ -671,20 +707,135 @@ button:hover {
   margin-top: 50px;
 }
 
+/* FOOTER */
 
-
-
-
-
-
-
-
-
-
-
-#height {
-  height: 50vh;
+.container-footer{
+  background-color: #F44708;
+  display: flex;
+  justify-content: center;
+ 
 }
+.container-1{
+ /* background-color: #227b94; */
+ 
+}
+
+.container-footer-pembungkus{
+  display: flex;
+  /* background-color: #227b94; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.abudzar{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.abudzar p{
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.Copyright{
+  font-size: 19px;
+  color: white;
+  padding-top: 50px;
+  font-weight: 400;
+}
+
+.all{
+  font-size: 19px;
+  color: white;
+  padding-top: 20px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.media img{ 
+  width: 50px;
+  margin-right: 5px;
+}
+
+.pembungkus-2{
+  display: flex;
+  /* background-color: #faa613; */
+  margin-left: 100px;
+}
+.conpany{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+.conpany h1{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.conpany li{
+  padding-top: 20px;
+ list-style: none;
+  color: white;
+}
+.support{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.support h1{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.support li{
+  color: white;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.stay{
+  margin-top: 20px;
+  position: relative;
+}
+.stay h1{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.stay input{
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.stay input{
+  background-color: #e56e42;
+ text-decoration: none;
+ border: none;
+}
+
+
+.input{
+  /* background-color: #4d4d4d; */
+  position: relative;
+}
+
+.input ::placeholder{
+  color: white;
+}
+
+.input span{
+  position: absolute;
+  right: 15px;
+  top: 7px;
+}
+
+
+
+
+/* #height {
+  height: 50vh;
+} */
 
 .icon-menu {
   display: none;

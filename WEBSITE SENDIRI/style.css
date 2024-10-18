@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#navigasi{
+    position: sticky;
+    top: 0px;
+    background-color: #6A9C89;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    z-index: 9;
+}
+#navigasi .dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #A5B68D;
+    top: 100%;
+    border-radius: 10px;
+    padding-left: 0;
+
+}
+.dropdown-menu li{
+    margin-left: 0 !important;
+}
+.dropdown-menu a{
+    color: white;
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block; 
+}
+.dropdown-menu a:hover{
+    background-color: #C1D8C3;
+}
+
+.list-navigasi{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    font-size: 20px;
+    height: 20px;
+}
+.list-navigasi li  {
+    list-style: none;
+    margin-left: 0;
+    color: white;
+    font-family: "Comic Neue", cursive;
+  font-weight: 700;
+}
